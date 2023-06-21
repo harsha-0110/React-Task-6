@@ -13,25 +13,25 @@ const App = () => {
         <nav className="navbar">
           <ul className="nav-links">
             <li>
-              <NavLink exact to="/" activeClassName="active">Home</NavLink>
+              <NavLink exact to="/React-Task-6/" activeClassName="active">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">About</NavLink>
+              <NavLink to="/React-Task-6/about" activeClassName="active">About</NavLink>
             </li>
             <li>
-              <NavLink to="/projects" activeClassName="active">Projects</NavLink>
+              <NavLink to="/React-Task-6/projects" activeClassName="active">Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+              <NavLink to="/React-Task-6/contact" activeClassName="active">Contact</NavLink>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/React-Task-6/" element={<Home />} />
+          <Route path="/React-Task-6/about" element={<About />} />
+          <Route path="/React-Task-6/projects" element={<Projects />} />
+          <Route path="/React-Task-6/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
